@@ -1,9 +1,12 @@
 import React from 'react'
+import Navbar from './components/Navbar'
+import Home from './components/Home'
 
 const App = () => {
   return (
-    <div>
-      <h3 className='font-bold text-3xl text-center mx-auto my-auto justify-center items-center'>hello world</h3>
+    <div className='min-h-screen max-w-full w-3/4  mb-10 mx-auto pt-10'>
+     <Navbar/>
+     <Home/>
       
     </div>
   )
